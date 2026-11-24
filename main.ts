@@ -1,3 +1,7 @@
+// This tiny program carries one dream-vacation emoji from its source file
+// into the grader's output folder, unchanged and unadorned.
+// It checks the entry first, so only a single picture character ever
+// leaves this folder, and anything else stops the run right away.
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
